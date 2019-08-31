@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__controller.o
+[PROJECT FILES]
+C:\Users\besty\Desktop\ica-windows-better\controller_windows.gpr
+20180131174726
+C:\Users\besty\Desktop\ica-windows-better\libxrif_windows.gpr
+20180131174726
+[BOUND OBJECT FILES]
+C:\Users\besty\Desktop\ica-windows-better\obj-windows\controller.o
+[GENERATED SOURCE FILES]
+b__controller.ads
+b__controller.adb
+b__controller.ali
+[RESULTING OPTIONS]
+-LC:\Users\besty\Desktop\ica-windows-better\obj-windows\
+-LC:\Users\besty\Desktop\ica-windows-better\obj-windows\
+-LC:\Users\besty\Desktop\ica-windows-better\xrif-ali-windows\
+-LE:/gnat/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+E:/gnat/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,50 @@
+-- Ada simulation/test harness of embedded system providing cross-roads ATS
+-- Copyright (C) 2014-2018 Phil Brooke
+-- 
+-- This code may NOT be distributed beyond staff and students
+-- teaching/studying the embedded systems module at Teesside University.
+-- It may NOT be used for any other purpose other than teaching/studying
+-- that module.  Copies must NOT be retained beyond necessary for
+-- teaching/studying that module.  No licence headers or licence output
+-- may be removed.
+-- 
+-- This code is distributed WITHOUT ANY WARRANTY; without even the
+-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+-- PURPOSE.
+
+-- DO NOT MODIFY THIS FILE.
+
+with "libxrif_windows";
+
+project Controller_Windows is
+
+  for Main
+    use ("controller");
+
+  for Source_Dirs use ("icasrc");
+
+  for Object_Dir use "obj-windows";
+
+  for Exec_Dir use ".";
+
+  package Builder is
+    for Executable ("controller.adb") use "controller";
+  end Builder;
+
+  package Compiler is
+    for Default_Switches ("Ada")
+      use ("-g",
+           "-O2",
+	   "-Werror=format-security",
+	   "-gnata",
+           "-gnato",
+           "-gnatwa",
+           "-gnatVa",
+           "-gnat12");
+  end Compiler;
+
+  package Binder is
+    for Default_Switches ("Ada") use ("-E");
+  end Binder;
+
+end Controller_Windows;

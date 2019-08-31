@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\besty\Desktop\ica-windows-better\controller_windows.gpr</vfs_file>
+    <file_marker column=" 38" line=" 175" >
+      <vfs_project>C:\Users\besty\Desktop\ica-windows-better\controller_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\besty\Desktop\ica-windows-better\icasrc\controller.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 46" line=" 192" >
+      <vfs_project>C:\Users\besty\Desktop\ica-windows-better\controller_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\besty\Desktop\ica-windows-better\icasrc\controller.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 7" >
+      <vfs_project>C:\Users\besty\Desktop\ica-windows-better\controller_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\besty\Desktop\ica-windows-better\icasrc\controller.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 120" >
+      <vfs_project>C:\Users\besty\Desktop\ica-windows-better\controller_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\besty\Desktop\ica-windows-better\icasrc\controller.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 40" line=" 140" >
+      <vfs_project>C:\Users\besty\Desktop\ica-windows-better\controller_windows.gpr</vfs_project>
+      <vfs_file>C:\Users\besty\Desktop\ica-windows-better\icasrc\controller.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\besty\Downloads\ica-windows\controller_windows.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\Users\besty\Downloads\ica-windows\controller_windows.gpr</vfs_project>
+      <vfs_file >C:\Users\besty\Downloads\ica-windows\icasrc\controller.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

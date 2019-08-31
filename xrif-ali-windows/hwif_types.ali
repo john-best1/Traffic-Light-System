@@ -1,0 +1,33 @@
+V "GNAT Lib v2018"
+A -O2
+A -Werror=format-security
+A -gnatA
+A -g
+A -gnata
+A -gnato
+A -gnatwa
+A -gnatVa
+A -gnat12
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U hwif_types%s		hwif_types.ads		50bf8285 NE OO PU PK
+W interfaces%s		interfac.ads		interfac.ali
+
+D hwif_types.ads	20180131174726 0a0ad0ed hwif_types%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D system.ads		20180524051738 32a08138 system%s
+X 1 hwif_types.ads
+17K9*HWIF_Types 26l5 26e15
+21M9*Octet<2|63M9>
+24M9*Int<2|74M9>
+X 2 interfac.ads
+38K9*Interfaces 1|15w6 21r22 24r20 2|184e15
+63M9*Unsigned_8 1|21r33
+74M9*Unsigned_32 1|24r31
+

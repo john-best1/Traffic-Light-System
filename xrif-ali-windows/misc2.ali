@@ -1,0 +1,55 @@
+V "GNAT Lib v2018"
+A -O2
+A -Werror=format-security
+A -gnatA
+A -g
+A -gnata
+A -gnato
+A -gnatwa
+A -gnatVa
+A -gnat12
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U misc2%b		misc2.adb		60d5829f NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U misc2%s		misc2.ads		69af67a8 EE NE OO PK
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-charac.ads		20180524051736 2d3ec45b ada.characters%s
+D a-chahan.ads		20180524051736 1601a50f ada.characters.handling%s
+D misc2.ads		20180131174726 69af67a8 misc2%s
+D misc2.adb		20180131174726 1f7b4038 misc2%b
+D system.ads		20180524051738 32a08138 system%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+X 1 ada.ads
+16K9*Ada 20e8 5|15r6 23r12
+X 2 a-charac.ads
+16K13*Characters 18e19 5|15r10 23r16
+X 3 a-chahan.ads
+36K24*Handling 159e28 5|15w21 23r27
+70V13*To_Lower{string} 5|23s36
+X 4 misc2.ads
+15K9*Misc2 19l5 19e10 5|17b14 35l5 35t10
+17V13*Treat_Argument{string} 17>29 5|19b13 33l8 33t22
+17a29 S{string} 5|19b29 20r19 23r45
+X 5 misc2.adb
+20a7 T{string} 21r23 23m7 25r16 26r13 32r14 32r20
+21i7 ND{integer} 27m13 32r16
+24l3 Dash_Scan_Loop 29r18 31l16 31e30
+25i11 I{integer} 26r15 27r19
+
